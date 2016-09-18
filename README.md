@@ -7,7 +7,7 @@
 
 ##Homework list
 - [x] [Exercise_01: ]()
-- [x] [Exercise_02: ]()
+- [x] [Exercise_02: ](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_01/Homework_1.md)
 - [x] [Exercise_03: ]()
 - [x] [Exercise_04: ]()
 - [x] [Exercise_05: ]()
