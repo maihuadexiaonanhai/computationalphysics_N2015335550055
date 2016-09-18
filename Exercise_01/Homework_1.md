@@ -12,7 +12,7 @@
  - 字母的格式都是5*5的，感觉既清楚又简洁。
 
 ### 程序
- - [Ex_1-1.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise-3/Ex03.py)
+ - [Ex_1-1.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_01/Ex_1-1.py)
 
 
 ### 结果
