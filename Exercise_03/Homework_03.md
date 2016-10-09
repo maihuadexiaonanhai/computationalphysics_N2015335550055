@@ -27,7 +27,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
 #### 核a与核b的衰变
  - 创建一个类（[Ex_3-1.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-1.py)）
  - 初始化类，并设置它的初始参数和属性（[Ex_3-2.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-2.py)）。    
-初始条件如下:
+初始条件：
 核a初始数->100
 核b初始数->0
 时间常数->1
@@ -39,19 +39,22 @@ where for simplicity we have assumed that the two types of decay are characteriz
  - 在类中创建对象并实现我们之前定义的函数（[Ex_3-6.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-6.py)）：
 
 #### 不同初始条件下三组原子核的衰变
- - 使用不同的初始条件再进行计算，连同我们以前使用的初始条件绘制（[Ex_3-7.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-7.py)）：
-核a初始数 -> 100   
+ - 使用不同的初始条件再进行计算，连同我们以前使用的初始条件绘制（[Ex_3-7.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-7.py)）：        
+初始条件：
+核a初始数 -> 100
 核b初始数 -> 0
-核c初始数 -> 100   
-核d初始数 -> 50 
+核c初始数 -> 100
+核d初始数 -> 50
 核e初始数 -> 100
 核f初始数 -> 30
 时间常数 -> 1
 时间步长 -> 0.05
-总时间 -> 5 
+总时间 -> 5
+
 #### 对核a和核b衰变在同一组使用不同的步数 
- - 使用不同数量的步骤来计算和检查结果初始条件为（[Ex_3-8.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-8.py)）：
-核a初始数 -> 100 
+ - 使用不同数量的步骤来计算和检查结果初始条件为（[Ex_3-8.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-8.py)）：       
+初始条件：
+核a初始数 -> 100
 核b初始数 -> 0
 时间常数 -> 1
 时间step1 -> 0.1
@@ -59,43 +62,44 @@ where for simplicity we have assumed that the two types of decay are characteriz
 总时间 -> 5
 
 #### 对问题进行测试
-初始条件（[Ex_3-9.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-9.py)）： 
-核a初始数->100        
-核b初始数->0         
-时间常数->1          
-时间步长->0.1     
-总时间->5 
-我们用分析的解决方案来为程序做测试。 
+初始条件（[Ex_3-9.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-9.py)）：
+核a初始数->100
+核b初始数->0
+时间常数->1
+时间步长->0.1
+总时间->5
+我们用分析的解决方案来为程序做测试。         
 ![Ex_P1.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P1.png)
 ## *绘图*
- - 衰变的核a和核在一组的问题（[Ex_3-10.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-10.py)）          
+ - 衰变的核a和核在一组的问题（[Ex_3-10.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-10.py)）                     
 初始条件：             
-核a初始数 -> 100初始数             
-核b初始数 -> 0初始数             
-时间常数 -> 1             
-时间步长 -> 0.05             
-总时间 -> 5 
+核a初始数 -> 100初始数    
+核b初始数 -> 0初始数
+时间常数 -> 1
+时间步长 -> 0.05
+总时间 -> 5        
 ![Ex_P2.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P2.png)
- - 不同初始条件下三组原子核的衰变（[Ex_3-11.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-11.py)）             
-注意，核a和核b是一组，核c和核d在第二组，核e和核f都在第三组，初始条件：             
-核a初始数 -> 100   
+ - 不同初始条件下三组原子核的衰变（[Ex_3-11.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-11.py)）               
+注意，核a和核b是一组，核c和核d在第二组，核e和核f都在第三组        
+初始条件：             
+核a初始数 -> 100
 核b初始数 -> 0
-核c初始数 -> 100   
-核d初始数 -> 50 
+核c初始数 -> 100
+核d初始数 -> 50
 核e初始数 -> 100
 核f初始数 -> 30
 时间常数 -> 1
 时间步长 -> 0.05
-总时间 -> 5 
+总时间 -> 5        
 ![Ex_P3.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P3.png)
- - 使用不同步骤的同一组中两个核衰变的计算（[Ex_3-12.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-12.py)）
+ - 使用不同步骤的同一组中两个核衰变的计算（[Ex_3-12.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-12.py)）      
 初始条件：             
-核a初始数 -> 100 
+核a初始数 -> 100
 核b初始数 -> 0
 时间常数 -> 1
 时间step1 -> 0.1
 时间step2 -> 0.001
-总时间 -> 5
+总时间 -> 5         
 ![Ex_P4.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P4.png)
 
 ## *结果*
