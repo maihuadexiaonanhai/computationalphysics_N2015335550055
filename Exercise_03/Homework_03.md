@@ -13,9 +13,9 @@
 
 ## *介绍*
 ### 分析
- - 求解两个方程，首先我们用泰勒展开 <img src="http://latex.codecogs.com/gif.latex?U_A" alt="" title="" /> 和 <img src="http://latex.codecogs.com/gif.latex?U_B" alt="" title="" /> 如下： 
+ - 求解两个方程，首先我们用泰勒展开 <img src="http://latex.codecogs.com/gif.latex?U_A" alt="" title="" /> 和 <img src="http://latex.codecogs.com/gif.latex?U_B" alt="" title="" /> 如下：         
 ![](http://latex.codecogs.com/gif.latex?N_U%28t&plus;%5CDelta%20t%29%3DN_U%28t%29&plus;%5Cfrac%7BdN_U%7D%7Bdt%7D%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7Bd%5E2%20N_U%7D%7Bdt%5E2%7D%28%5CDelta%20t%29%5E2&plus;...)  
- - 使用近似 
+ - 使用近似：        
 ![](http://latex.codecogs.com/gif.latex?N_U%28t&plus;%5CDelta%20t%29%5Capprox%20N_U%28t%29&plus;%5Cfrac%7BdN_U%7D%7Bdt%7D%5CDelta%20t)
  - 在问题中使用方程来代替<img src="http://latex.codecogs.com/gif.latex?\frac{dN_U}{dt}" alt="" title="" /> ，并使用各种初始条件得到曲线
  - 然后我们用代码来实现它
