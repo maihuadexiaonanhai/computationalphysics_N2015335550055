@@ -27,12 +27,12 @@ where for simplicity we have assumed that the two types of decay are characteriz
 #### 核a与核b的衰变
  - 创建一个类（[Ex_3-1.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-1.py)）
  - 初始化类，并设置它的初始参数和属性（[Ex_3-2.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-2.py)）。
-初始条件如下：
-核a初始数->100        
-核b初始数->0         
-时间常数->1          
-时间步长->0.05      
-总时间->5 
+ 初始条件如下:
+ 核a初始数->100
+ 核b初始数->0
+ 时间常数->1
+ 时间步长->0.05
+ 总时间->5
  - 定义函数来计算（设计循环附加我们下面做的列表计算）（[Ex_3-3.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-3.py)）：
  - 定义函数显示PyLab结果（[Ex_3-4.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-4.py)）： 
  - 定义存储结果的函数（[Ex_3-5.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-5.py)）： 
