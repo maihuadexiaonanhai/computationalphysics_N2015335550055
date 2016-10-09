@@ -52,7 +52,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
 总时间 -> 5；
 
 #### 对核a和核b衰变在同一组使用不同的步数 
- - 使用不同数量的步骤来计算和检查结果初始条件为（[Ex_3-8.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-8.py)）：       
+ - 使用不同数量的步骤来计算和检查结果（[Ex_3-8.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-8.py)）：       
 初始条件：
 核a初始数 -> 100；
 核b初始数 -> 0；
