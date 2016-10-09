@@ -1,105 +1,106 @@
-# **µÚËÄ´Î×÷Òµ**
-## *ÎÊÌâ*
+# **ç¬¬å››æ¬¡ä½œä¸š**
+## *é—®é¢˜*
  - Consider again a decay problem with two types of nuclei A and B, but now suppose that nuclei of type A decay into ones of type B, while nuclei of type B decay into ones of type A. Strictly speaking, this is not a "decay" process, since it is possible for the type B nuclei to turn back into type A nuclei. A better analogy would be a resonance in which a system can tunnel or move back and forth between two states A and B which have equal energies. The corresponding rate equations are  
-			<img src="http://latex.codecogs.com/gif.latex?\frac{dN_A}{dt}=\frac{N_B}{\tau_B}-\frac{N_A}{\tau_A}" alt="" title="" />  
-			<img src="http://latex.codecogs.com/gif.latex?\frac{dN_B}{dt}=\frac{N_A}{\tau_A}-\frac{N_B}{\tau_B}" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?\frac{dN_A}{dt}=\frac{N_B}{\tau_B}-\frac{N_A}{\tau_A}" alt="" title="" />  
+<img src="http://latex.codecogs.com/gif.latex?\frac{dN_B}{dt}=\frac{N_A}{\tau_A}-\frac{N_B}{\tau_B}" alt="" title="" />  
 where for simplicity we have assumed that the two types of decay are characterized by the same time constant, tau. Solve this system of equation for the numbers of nuclei, NA and NB, as functions of time. Consider different initial conditions, such as NA=100, NB=0, etc, and take tau=1s. Show that your numerical results are consistent with the idea that the system reaches a steady state in which NA and NB are constant. In such a steady state, the time derivatives dNA/dt and dNB/dt should vanish.  
 
-## *ÕªÒª*
-ÒòÎªÓĞÁ½¸ö³£Î¢·Ö·½³Ì£¬ËùÒÔÎÒÃÇ¿ÉÒÔÓÃÅ·À­·½·¨À´½â¾öÕâ¸öÎÊÌâ¡£Ê×ÏÈÎÒÃÇÒª½â¾öµÄµÚÒ»¸ö·½³ÌÖĞµÄ¶ş´Î¼°¸ß´Î·½³ÌµÄÌ©ÀÕÕ¹¿ª£¬ÕâÒâÎ¶×ÅÎÒÃÇÖ»ĞèÒªËüµÄÏßĞÔÏî¡£Õâ¿ÉÒÔºÜºÃµÄ½üËÆÁ½¸ö·½³Ì¡£ÎªÁËÊµÏÖËü£¬ÎÒÃÇ±ØĞëÍê³É4¸ö²½Öè£º             
- - È·¶¨±ØÒªµÄ±äÁ¿            
- - ³õÊ¼»¯ËùÓĞµÄ±äÁ¿ºÍ²ÎÊı            
- - ×ö¼ÆËã
- - ´æ´¢½á¹û
-´ËÍâ£¬ÎÒÃÇ¿ÉÒÔÊ¹ÓÃ²»Í¬µÄ³õÊ¼Ìõ¼ş£¬ÒÔÈ·±£ÎÒÃÇ±à³ÌµÄ¿É¿¿ĞÔ¡£
+## *æ‘˜è¦*
+å› ä¸ºæœ‰ä¸¤ä¸ªå¸¸å¾®åˆ†æ–¹ç¨‹ï¼Œæ‰€ä»¥æˆ‘ä»¬å¯ä»¥ç”¨æ¬§æ‹‰æ–¹æ³•æ¥è§£å†³è¿™ä¸ªé—®é¢˜ã€‚é¦–å…ˆæˆ‘ä»¬è¦è§£å†³çš„ç¬¬ä¸€ä¸ªæ–¹ç¨‹ä¸­çš„äºŒæ¬¡åŠé«˜æ¬¡æ–¹ç¨‹çš„æ³°å‹’å±•å¼€ï¼Œè¿™æ„å‘³ç€æˆ‘ä»¬åªéœ€è¦å®ƒçš„çº¿æ€§é¡¹ã€‚è¿™å¯ä»¥å¾ˆå¥½çš„è¿‘ä¼¼ä¸¤ä¸ªæ–¹ç¨‹ã€‚ä¸ºäº†å®ç°å®ƒï¼Œæˆ‘ä»¬å¿…é¡»å®Œæˆ4ä¸ªæ­¥éª¤ï¼š             
+ - ç¡®å®šå¿…è¦çš„å˜é‡            
+ - åˆå§‹åŒ–æ‰€æœ‰çš„å˜é‡å’Œå‚æ•°            
+ - åšè®¡ç®—
+ - å­˜å‚¨ç»“æœ
+ 
+æ­¤å¤–ï¼Œæˆ‘ä»¬å¯ä»¥ä½¿ç”¨ä¸åŒçš„åˆå§‹æ¡ä»¶ï¼Œä»¥ç¡®ä¿æˆ‘ä»¬ç¼–ç¨‹çš„å¯é æ€§ã€‚
 
-## *½éÉÜ*
-### ·ÖÎö
- - Çó½âÁ½¸ö·½³Ì£¬Ê×ÏÈÎÒÃÇÓÃÌ©ÀÕÕ¹¿ª <img src="http://latex.codecogs.com/gif.latex?U_A" alt="" title="" /> ºÍ <img src="http://latex.codecogs.com/gif.latex?U_B" alt="" title="" /> ÈçÏÂ£º 
+## *ä»‹ç»*
+### åˆ†æ
+ - æ±‚è§£ä¸¤ä¸ªæ–¹ç¨‹ï¼Œé¦–å…ˆæˆ‘ä»¬ç”¨æ³°å‹’å±•å¼€ <img src="http://latex.codecogs.com/gif.latex?U_A" alt="" title="" /> å’Œ <img src="http://latex.codecogs.com/gif.latex?U_B" alt="" title="" /> å¦‚ä¸‹ï¼š 
 ![](http://latex.codecogs.com/gif.latex?N_U%28t&plus;%5CDelta%20t%29%3DN_U%28t%29&plus;%5Cfrac%7BdN_U%7D%7Bdt%7D%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7Bd%5E2%20N_U%7D%7Bdt%5E2%7D%28%5CDelta%20t%29%5E2&plus;...)  
- - Ê¹ÓÃ½üËÆ 
+ - ä½¿ç”¨è¿‘ä¼¼ 
 ![](http://latex.codecogs.com/gif.latex?N_U%28t&plus;%5CDelta%20t%29%5Capprox%20N_U%28t%29&plus;%5Cfrac%7BdN_U%7D%7Bdt%7D%5CDelta%20t)
- - ÔÚÎÊÌâÖĞÊ¹ÓÃ·½³ÌÀ´´úÌæ<img src="http://latex.codecogs.com/gif.latex?\frac{dN_U}{dt}" alt="" title="" /> £¬²¢Ê¹ÓÃ¸÷ÖÖ³õÊ¼Ìõ¼şµÃµ½ÇúÏß
- - È»ºóÎÒÃÇÓÃ´úÂëÀ´ÊµÏÖËü
+ - åœ¨é—®é¢˜ä¸­ä½¿ç”¨æ–¹ç¨‹æ¥ä»£æ›¿<img src="http://latex.codecogs.com/gif.latex?\frac{dN_U}{dt}" alt="" title="" /> ï¼Œå¹¶ä½¿ç”¨å„ç§åˆå§‹æ¡ä»¶å¾—åˆ°æ›²çº¿
+ - ç„¶åæˆ‘ä»¬ç”¨ä»£ç æ¥å®ç°å®ƒ
 
-## *³ÌĞò*
-#### ºËaÓëºËbµÄË¥±ä
- - ´´½¨Ò»¸öÀà£¨[Ex_3-1.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-1.py)£©
- - ³õÊ¼»¯Àà£¬²¢ÉèÖÃËüµÄ³õÊ¼²ÎÊıºÍÊôĞÔ£¨[Ex_3-2.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-2.py)£©¡£
-³õÊ¼Ìõ¼şÈçÏÂ£º
-ºËa³õÊ¼Êı->100        
-ºËb³õÊ¼Êı->0         
-Ê±¼ä³£Êı->1          
-Ê±¼ä²½³¤->0.05      
-×ÜÊ±¼ä->5 
- - ¶¨Òåº¯ÊıÀ´¼ÆËã£¨Éè¼ÆÑ­»·¸½¼ÓÎÒÃÇÏÂÃæ×öµÄÁĞ±í¼ÆËã£©£¨[Ex_3-3.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-3.py)£©£º
- - ¶¨Òåº¯ÊıÏÔÊ¾PyLab½á¹û£¨[Ex_3-4.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-4.py)£©£º 
- - ¶¨Òå´æ´¢½á¹ûµÄº¯Êı£¨[Ex_3-5.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-5.py)£©£º 
- - ÔÚÀàÖĞ´´½¨¶ÔÏó²¢ÊµÏÖÎÒÃÇÖ®Ç°¶¨ÒåµÄº¯Êı£¨[Ex_3-6.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-6.py)£©£º
+## *ç¨‹åº*
+#### æ ¸aä¸æ ¸bçš„è¡°å˜
+ - åˆ›å»ºä¸€ä¸ªç±»ï¼ˆ[Ex_3-1.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-1.py)ï¼‰
+ - åˆå§‹åŒ–ç±»ï¼Œå¹¶è®¾ç½®å®ƒçš„åˆå§‹å‚æ•°å’Œå±æ€§ï¼ˆ[Ex_3-2.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-2.py)ï¼‰ã€‚
+åˆå§‹æ¡ä»¶å¦‚ä¸‹ï¼š
+æ ¸aåˆå§‹æ•°->100        
+æ ¸båˆå§‹æ•°->0         
+æ—¶é—´å¸¸æ•°->1          
+æ—¶é—´æ­¥é•¿->0.05      
+æ€»æ—¶é—´->5 
+ - å®šä¹‰å‡½æ•°æ¥è®¡ç®—ï¼ˆè®¾è®¡å¾ªç¯é™„åŠ æˆ‘ä»¬ä¸‹é¢åšçš„åˆ—è¡¨è®¡ç®—ï¼‰ï¼ˆ[Ex_3-3.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-3.py)ï¼‰ï¼š
+ - å®šä¹‰å‡½æ•°æ˜¾ç¤ºPyLabç»“æœï¼ˆ[Ex_3-4.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-4.py)ï¼‰ï¼š 
+ - å®šä¹‰å­˜å‚¨ç»“æœçš„å‡½æ•°ï¼ˆ[Ex_3-5.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-5.py)ï¼‰ï¼š 
+ - åœ¨ç±»ä¸­åˆ›å»ºå¯¹è±¡å¹¶å®ç°æˆ‘ä»¬ä¹‹å‰å®šä¹‰çš„å‡½æ•°ï¼ˆ[Ex_3-6.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-6.py)ï¼‰ï¼š
 
-#### ²»Í¬³õÊ¼Ìõ¼şÏÂÈı×éÔ­×ÓºËµÄË¥±ä
- - Ê¹ÓÃ²»Í¬µÄ³õÊ¼Ìõ¼şÔÙ½øĞĞ¼ÆËã£¬Á¬Í¬ÎÒÃÇÒÔÇ°Ê¹ÓÃµÄ³õÊ¼Ìõ¼ş»æÖÆ£¨[Ex_3-7.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-7.py)£©£º
-ºËa³õÊ¼Êı -> 100   
-ºËb³õÊ¼Êı -> 0
-ºËc³õÊ¼Êı -> 100   
-ºËd³õÊ¼Êı -> 50 
-ºËe³õÊ¼Êı -> 100
-ºËf³õÊ¼Êı -> 30
-Ê±¼ä³£Êı -> 1
-Ê±¼ä²½³¤ -> 0.05
-×ÜÊ±¼ä -> 5 
-#### ¶ÔºËaºÍºËbË¥±äÔÚÍ¬Ò»×éÊ¹ÓÃ²»Í¬µÄ²½Êı 
- - Ê¹ÓÃ²»Í¬ÊıÁ¿µÄ²½ÖèÀ´¼ÆËãºÍ¼ì²é½á¹û³õÊ¼Ìõ¼şÎª£¨[Ex_3-8.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-8.py)£©£º
-ºËa³õÊ¼Êı -> 100 
-ºËb³õÊ¼Êı -> 0
-Ê±¼ä³£Êı -> 1
-Ê±¼ästep1 -> 0.1
-Ê±¼ästep2 -> 0.001
-×ÜÊ±¼ä -> 5
+#### ä¸åŒåˆå§‹æ¡ä»¶ä¸‹ä¸‰ç»„åŸå­æ ¸çš„è¡°å˜
+ - ä½¿ç”¨ä¸åŒçš„åˆå§‹æ¡ä»¶å†è¿›è¡Œè®¡ç®—ï¼Œè¿åŒæˆ‘ä»¬ä»¥å‰ä½¿ç”¨çš„åˆå§‹æ¡ä»¶ç»˜åˆ¶ï¼ˆ[Ex_3-7.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-7.py)ï¼‰ï¼š
+æ ¸aåˆå§‹æ•° -> 100   
+æ ¸båˆå§‹æ•° -> 0
+æ ¸cåˆå§‹æ•° -> 100   
+æ ¸dåˆå§‹æ•° -> 50 
+æ ¸eåˆå§‹æ•° -> 100
+æ ¸fåˆå§‹æ•° -> 30
+æ—¶é—´å¸¸æ•° -> 1
+æ—¶é—´æ­¥é•¿ -> 0.05
+æ€»æ—¶é—´ -> 5 
+#### å¯¹æ ¸aå’Œæ ¸bè¡°å˜åœ¨åŒä¸€ç»„ä½¿ç”¨ä¸åŒçš„æ­¥æ•° 
+ - ä½¿ç”¨ä¸åŒæ•°é‡çš„æ­¥éª¤æ¥è®¡ç®—å’Œæ£€æŸ¥ç»“æœåˆå§‹æ¡ä»¶ä¸ºï¼ˆ[Ex_3-8.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-8.py)ï¼‰ï¼š
+æ ¸aåˆå§‹æ•° -> 100 
+æ ¸båˆå§‹æ•° -> 0
+æ—¶é—´å¸¸æ•° -> 1
+æ—¶é—´step1 -> 0.1
+æ—¶é—´step2 -> 0.001
+æ€»æ—¶é—´ -> 5
 
-#### ¶ÔÎÊÌâ½øĞĞ²âÊÔ
-³õÊ¼Ìõ¼ş£¨[Ex_3-9.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-9.py)£©£º 
-ºËa³õÊ¼Êı->100        
-ºËb³õÊ¼Êı->0         
-Ê±¼ä³£Êı->1          
-Ê±¼ä²½³¤->0.1     
-×ÜÊ±¼ä->5 
-ÎÒÃÇÓÃ·ÖÎöµÄ½â¾ö·½°¸À´Îª³ÌĞò×ö²âÊÔ¡£ 
+#### å¯¹é—®é¢˜è¿›è¡Œæµ‹è¯•
+åˆå§‹æ¡ä»¶ï¼ˆ[Ex_3-9.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-9.py)ï¼‰ï¼š 
+æ ¸aåˆå§‹æ•°->100        
+æ ¸båˆå§‹æ•°->0         
+æ—¶é—´å¸¸æ•°->1          
+æ—¶é—´æ­¥é•¿->0.1     
+æ€»æ—¶é—´->5 
+æˆ‘ä»¬ç”¨åˆ†æçš„è§£å†³æ–¹æ¡ˆæ¥ä¸ºç¨‹åºåšæµ‹è¯•ã€‚ 
 ![Ex_P1.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P1.png)
-## *»æÍ¼*
- - Ë¥±äµÄºËaºÍºËÔÚÒ»×éµÄÎÊÌâ£¨[Ex_3-10.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-10.py)£©          
-³õÊ¼Ìõ¼ş£º             
-ºËa³õÊ¼Êı -> 100³õÊ¼Êı             
-ºËb³õÊ¼Êı -> 0³õÊ¼Êı             
-Ê±¼ä³£Êı -> 1             
-Ê±¼ä²½³¤ -> 0.05             
-×ÜÊ±¼ä -> 5 
+## *ç»˜å›¾*
+ - è¡°å˜çš„æ ¸aå’Œæ ¸åœ¨ä¸€ç»„çš„é—®é¢˜ï¼ˆ[Ex_3-10.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-10.py)ï¼‰          
+åˆå§‹æ¡ä»¶ï¼š             
+æ ¸aåˆå§‹æ•° -> 100åˆå§‹æ•°             
+æ ¸båˆå§‹æ•° -> 0åˆå§‹æ•°             
+æ—¶é—´å¸¸æ•° -> 1             
+æ—¶é—´æ­¥é•¿ -> 0.05             
+æ€»æ—¶é—´ -> 5 
 ![Ex_P2.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P2.png)
- - ²»Í¬³õÊ¼Ìõ¼şÏÂÈı×éÔ­×ÓºËµÄË¥±ä£¨[Ex_3-11.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-11.py)£©             
-×¢Òâ£¬ºËaºÍºËbÊÇÒ»×é£¬ºËcºÍºËdÔÚµÚ¶ş×é£¬ºËeºÍºËf¶¼ÔÚµÚÈı×é£¬³õÊ¼Ìõ¼ş£º             
-ºËa³õÊ¼Êı -> 100   
-ºËb³õÊ¼Êı -> 0
-ºËc³õÊ¼Êı -> 100   
-ºËd³õÊ¼Êı -> 50 
-ºËe³õÊ¼Êı -> 100
-ºËf³õÊ¼Êı -> 30
-Ê±¼ä³£Êı -> 1
-Ê±¼ä²½³¤ -> 0.05
-×ÜÊ±¼ä -> 5 
+ - ä¸åŒåˆå§‹æ¡ä»¶ä¸‹ä¸‰ç»„åŸå­æ ¸çš„è¡°å˜ï¼ˆ[Ex_3-11.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-11.py)ï¼‰             
+æ³¨æ„ï¼Œæ ¸aå’Œæ ¸bæ˜¯ä¸€ç»„ï¼Œæ ¸cå’Œæ ¸dåœ¨ç¬¬äºŒç»„ï¼Œæ ¸eå’Œæ ¸féƒ½åœ¨ç¬¬ä¸‰ç»„ï¼Œåˆå§‹æ¡ä»¶ï¼š             
+æ ¸aåˆå§‹æ•° -> 100   
+æ ¸båˆå§‹æ•° -> 0
+æ ¸cåˆå§‹æ•° -> 100   
+æ ¸dåˆå§‹æ•° -> 50 
+æ ¸eåˆå§‹æ•° -> 100
+æ ¸fåˆå§‹æ•° -> 30
+æ—¶é—´å¸¸æ•° -> 1
+æ—¶é—´æ­¥é•¿ -> 0.05
+æ€»æ—¶é—´ -> 5 
 ![Ex_P3.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P3.png)
- - Ê¹ÓÃ²»Í¬²½ÖèµÄÍ¬Ò»×éÖĞÁ½¸öºËË¥±äµÄ¼ÆËã£¨[Ex_3-12.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-12.py)£©
-³õÊ¼Ìõ¼ş£º             
-ºËa³õÊ¼Êı -> 100 
-ºËb³õÊ¼Êı -> 0
-Ê±¼ä³£Êı -> 1
-Ê±¼ästep1 -> 0.1
-Ê±¼ästep2 -> 0.001
-×ÜÊ±¼ä -> 5
+ - ä½¿ç”¨ä¸åŒæ­¥éª¤çš„åŒä¸€ç»„ä¸­ä¸¤ä¸ªæ ¸è¡°å˜çš„è®¡ç®—ï¼ˆ[Ex_3-12.py](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_3-12.py)ï¼‰
+åˆå§‹æ¡ä»¶ï¼š             
+æ ¸aåˆå§‹æ•° -> 100 
+æ ¸båˆå§‹æ•° -> 0
+æ—¶é—´å¸¸æ•° -> 1
+æ—¶é—´step1 -> 0.1
+æ—¶é—´step2 -> 0.001
+æ€»æ—¶é—´ -> 5
 ![Ex_P4.png](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Ex_P4.png)
 
-## *½á¹û*
- - ÎŞÂÛºËaºÍºËbµÄ³õÊ¼ÖµÎª¶àÉÙ£¬ºËaµÄÊıÁ¿Ç÷ÓÚ¼õÉÙ£¬ºËbÊıÁ¿ÓĞÔö¼ÓµÄÇ÷ÊÆ£¬ºÜ³¤Ò»¶ÎÊ±¼äºóËûÃÇ¶¼½«´ïµ½Æ½ºâµã¡£             
- - ÎÒÃÇ×öµÄ²½ÖèÔ½¶à£¬½á¹ûÔ½¾«È·¡£
+## *ç»“æœ*
+ - æ— è®ºæ ¸aå’Œæ ¸bçš„åˆå§‹å€¼ä¸ºå¤šå°‘ï¼Œæ ¸açš„æ•°é‡è¶‹äºå‡å°‘ï¼Œæ ¸bæ•°é‡æœ‰å¢åŠ çš„è¶‹åŠ¿ï¼Œå¾ˆé•¿ä¸€æ®µæ—¶é—´åä»–ä»¬éƒ½å°†è¾¾åˆ°å¹³è¡¡ç‚¹ã€‚             
+ - æˆ‘ä»¬åšçš„æ­¥éª¤è¶Šå¤šï¼Œç»“æœè¶Šç²¾ç¡®ã€‚
 
-## *ÖÂĞ»*
- - ¸ĞĞ»ºëÒã°à´óÉñµÄÎŞË½·îÏ×£¡
+## *è‡´è°¢*
+ - æ„Ÿè°¢å¼˜æ¯…ç­å¤§ç¥çš„æ— ç§å¥‰çŒ®ï¼
