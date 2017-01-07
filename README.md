@@ -1,5 +1,3 @@
-https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/final/python_tkinter_peng.1.1.py()# Thanks for reading 
-
 ## Introduction
 **Name:程成**
 
