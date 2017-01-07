@@ -1,4 +1,4 @@
-# Thanks for reading 
+()# Thanks for reading 
 
 ## Introduction
 **Name:程成**
@@ -14,10 +14,13 @@
 作业3
 - [x] [Exercise_03: ](https://github.com/maihuadexiaonanhai/computationalphysics_N2015335550055/blob/master/Exercise_03/Homework_03.md)
 作业4
-- [ ] Exercise_04: 
-- [ ] Exercise_05: 
-- [ ] Exercise_06: 
-- [ ] Exercise_07: 
-- [ ] Exercise_08: 
-- [ ] Exercise_09:          
-- [ ] ......
+- [x] [Exercise_04: ]()
+- [x] [Exercise_05: ]()
+- [x] [Exercise_06: ]()
+- [x] [Exercise_07: ]()
+- [x] [Exercise_08: ]()
+- [x] [Exercise_09: ]()
+- [x] [Exercise_10: ]()
+- [x] [Exercise_11: ]()
+- [x] [Exercise_12: ]()       
+- [x] [期末作业](), [程序]()
